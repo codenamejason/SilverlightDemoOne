@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<span class="code-comment"> The file must be configured to allow access to the service from any other domain, 
+or it is not recognized by Silverlight 4.
+Save the crossdomain.xml file to the root of the domain where the service is hosted. 
+If, for example, the service is hosted in http://fabrikam.com, 
+then the file must be located at http://fabrikam.com/crossdomain.xml.
+</span>-->
+<!DOCTYPE cross-domain-policy SYSTEM 
+"http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+  <allow-http-request-headers-from domain="*" headers="SOAPAction,Content-Type"/>
+</cross-domain-policy>
